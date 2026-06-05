@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aniversario de la Escuela Domiciliaria y Hospitalaria N° 302 'Dr. Atilio Rebello'">
+    <title>¡Feliz Aniversario! Escuela N° 302</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    <header class="hero">
+        <div class="hero-content glass-panel">
+            <img src="Fotos_Cumple/LOGO_302_2022-removebg-preview.png" alt="Logo Escuela 302" class="hero-logo">
+            <h1 class="hero-title">¡Feliz Aniversario!</h1>
+            <h2 class="hero-subtitle">Escuela Domiciliaria y Hospitalaria N° 302<br>"Dr. Atilio Rebello"</h2>
+            <p class="hero-tagline">Garantizando el derecho a la educación con amor y dedicación.</p>
+            <a href="#album" class="btn-primary">Ver Álbum de Fotos</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="history-section" id="historia">
+            <div class="container glass-panel">
+                <div class="history-content">
+                    <h2 class="section-title">Nuestra Historia</h2>
+                    <p>La <strong>Escuela Domiciliaria y Hospitalaria N° 302 “Dr. Atilio Rebello”</strong> es una institución educativa pública especializada en brindar escolaridad a estudiantes que, por motivos de salud, no pueden asistir de manera regular a un establecimiento común.</p>
+                    <p>Esta propuesta la posiciona dentro del conjunto de instituciones educativas pensadas para garantizar el derecho a la educación en contextos de enfermedad, ya sea en el hogar o en el ámbito hospitalario, ofreciendo una alternativa real para que niñas, niños y adolescentes continúen su trayectoria escolar a pesar de atravesar tratamientos médicos prolongados.</p>
+                    <p>Con sede en Comodoro Rivadavia, garantizamos el acompañamiento pedagógico de alumnos y alumnas, llevando la escuela allí donde más se la necesita. ¡Hoy celebramos un año más de aprendizajes, sonrisas y esperanza!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="teachers-section" id="docentes">
+            <div class="container glass-panel" style="margin-top: 2rem; margin-bottom: 2rem;">
+                <h2 class="section-title text-center">Nuestros Docentes</h2>
+                <p class="text-center mb-2">Un agradecimiento especial a nuestro equipo, el corazón de la escuela:</p>
+                <ul class="teachers-list">
+                    <li>María</li>
+                    <li>Mabel</li>
+                    <li>Milton</li>
+                    <li>Corina</li>
+                    <li>Del Valle Soledad</li>
+                    <li>Carla Jimena</li>
+                    <li>Maria Florencia</li>
+                    <li>Jesica E.</li>
+                    <li>Cristian Fabian</li>
+                    <li>Claudia</li>
+                    <li>Yesica</li>
+                    <li>Amelia</li>
+                    <li>Fernando Domingo</li>
+                    <li>Fernando S.</li>
+                    <li>Paola M.</li>
+                    <li>Ricardo</li>
+                    <li>Maria Jose</li>
+                    <li>Ana Kalinka</li>
+                    <li>Maximiliano</li>
+                    <li>Karina</li>
+                    <li>Pablo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="album-section" id="album">
+            <div class="container">
+                <h2 class="section-title text-center text-white">Álbum de Recuerdos</h2>
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Images will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section class="location-section" id="ubicacion">
+            <div class="container glass-panel">
+                <h2 class="section-title text-center">Encontranos Aquí</h2>
+                <p class="text-center mb-2">Visítanos o contáctanos para saber más sobre nuestra labor educativa.</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.023249788059!2d-67.50280452309852!3d-45.86470877107758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDUxJzUzLjAiUyA2N8KwMzAnMDEuOCJX!5e0!3m2!1ses-419!2sar!4v1680000000000!5m2!1ses-419!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="social-links text-center mt-2">
+                    <a href="https://www.facebook.com/ehyd.302?locale=es_LA" target="_blank" class="btn-secondary">Visitar nuestro Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Escuela Domiciliaria y Hospitalaria N° 302 “Dr. Atilio Rebello”. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
