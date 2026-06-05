@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "profe.jpeg",
         "67.jpeg",
         "esc.jpeg",
-        "jefa.jpeg"
+        "jefa.jpeg",
+        "super.jpeg"
     ];
 
     const galleryGrid = document.getElementById('gallery-grid');
