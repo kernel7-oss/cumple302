@@ -356,8 +356,47 @@ footer {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Teachers Layout and QR */
+.teachers-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teachers-list-container {
+    flex: 1;
+}
+
+.teachers-qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    min-width: 250px;
+}
+
+.instagram-qr {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.instagram-qr:hover {
+    transform: scale(1.05);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+    .teachers-layout {
+        flex-direction: column;
+    }
     .hero-title { font-size: 3rem; }
     .hero-subtitle { font-size: 1.5rem; }
     .section-title { font-size: 2.5rem; }
