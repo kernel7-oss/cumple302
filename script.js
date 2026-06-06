@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "kari.jpeg",
         "profe.jpeg",
         "67.jpeg",
-        "esc.jpeg",
+        "esc.jpg",
         "jefa.jpeg",
         "super.jpeg",
         "fer.jpeg",
