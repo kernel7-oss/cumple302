@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "WhatsApp Image 2026-06-05 at 14.20.23.jpeg",
         "WhatsApp Image 2026-06-05 at 14.21.25.jpeg",
         "WhatsApp Image 2026-06-05 at 14.30.06.jpeg",
-        "WhatsApp Image 2026-06-05 at 14.32.25 (1).jpeg",
         "WhatsApp Image 2026-06-05 at 14.32.25 (2).jpeg",
         "WhatsApp Image 2026-06-05 at 14.32.25 (3).jpeg",
         "WhatsApp Image 2026-06-05 at 14.32.25 (4).jpeg",
